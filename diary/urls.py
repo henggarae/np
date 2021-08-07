@@ -1,11 +1,11 @@
 from django.urls import path
-from . import view
+from . import views
 urlpatterns = [
-#    path('diary/', view.page_list),
-#    path('diary/info/', view.page_info),
-#    path('diary/write/', view.page_create),
-#    path('diary/page/<int:id>', view.page_detail),
-#    path('diary/page/<int:id>/edit', view.page_update),
-#    path('diary/page/<int:id>/delete', view.page_delete),
+#    path('diary/', views.page_list),
+#    path('diary/info/', views.page_info),
+#    path('diary/write/', views.page_create),
+#    path('diary/page/<int:id>', views.page_detail),
+#    path('diary/page/<int:id>/edit', views.page_update),
+#    path('diary/page/<int:id>/delete', views.page_delete),
 
 ]

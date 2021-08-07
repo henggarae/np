@@ -3,7 +3,7 @@
     {% block post-container %}
         {% for post in posts %}
             <li>
-               <a href="/diary/page/{{post.id}}">
+               <a href={{% url 'page-detail'  id %}}>
                 <div class="date">
                     <span>{{post.dt_created|date:"d"}}</span>
                                 <p>{{post.dt_created|date:"M"}}</p>
